@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js"></script>
+    <style>
+        div {
+            padding: 0.6rem;
+        }
+    </style>
+</head>
+<body>
+    <form><div>
+        <label for="szamA">Első szám: </label><br>
+        <input type="text" id="szamA" name=""><br>
+    </div>
+    <div>
+        <label for="szamB">Második szám: </label><br>
+        <input type="text" id="szamB" name=""><br>
+    </div>
+    <div>
+        <input id="osszead" type="button" value="+" onclick="szamolj('+')">
+        <input id="kivon" type="button" value="-" onclick="szamolj('-')">
+        <input id="szoroz" type="button" value="*" onclick="szamolj('*')">
+        <input id="osztas" type="button" value="/" onclick="szamolj('/')">
+    </div>
+    <div>
+        <h2>Eredmény: </h2>
+        <h2 id="eredmeny"></h2>
+    </div>
+      </form>
+</body>
+</html>
