@@ -18,10 +18,4 @@ function szamolj(muvelet){
 }
 
 
-function AddOssze(){
-   szamolj("+");
-}
-function Kivonas(){
-    szamolj("-");
-}
 
